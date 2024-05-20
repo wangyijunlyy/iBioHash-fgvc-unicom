@@ -1,0 +1,129 @@
+batch_size           512
+dataset              iBiohash
+debug                0
+epochs               64
+eval                 False
+lr                   1e-05
+lr_pfc_weight        10.0
+input_size           224
+gradient_acc         1
+model_name           ViT-L/14
+margin_loss_m1       1.0
+margin_loss_m2       0.25
+margin_loss_m3       0.0
+margin_loss_s        32.0
+margin_loss_filter   0.0
+num_workers          4
+num_feat             512
+optimizer            adamw
+output_dim           768
+output               ./output
+resume               NULL
+sample_rate          1.0
+seed                 1024
+transform            timm
+weight_decay         0.0
+color_jitter         0.4
+aa                   rand-m9-mstd0.5-inc1
+reprob               0.25
+remode               pixel
+recount              1
+400000
+400000
+400000
+400000
+400000
+400000
+rank:87 total:174 lr:[0.00000040][0.00000402] step:20 amp:65536 required:44.7 hours 15.772
+rank:85 total:171 lr:[0.00000040][0.00000403] step:30 amp:65536 required:43.6 hours 15.750
+rank:84 total:169 lr:[0.00000041][0.00000406] step:40 amp:65536 required:43.2 hours 15.727
+rank:84 total:168 lr:[0.00000041][0.00000409] step:50 amp:65536 required:43.0 hours 15.712
+rank:83 total:167 lr:[0.00000041][0.00000414] step:60 amp:65536 required:42.9 hours 15.706
+batch_size           512
+dataset              iBiohash
+debug                0
+epochs               64
+eval                 False
+lr                   1e-05
+lr_pfc_weight        10.0
+input_size           224
+gradient_acc         1
+model_name           ViT-L/14
+margin_loss_m1       1.0
+margin_loss_m2       0.25
+margin_loss_m3       0.0
+margin_loss_s        32.0
+margin_loss_filter   0.0
+num_workers          4
+num_feat             512
+optimizer            adamw
+output_dim           768
+output               ./output
+resume               NULL
+sample_rate          1.0
+seed                 1024
+transform            timm
+weight_decay         0.0
+color_jitter         0.4
+aa                   rand-m9-mstd0.5-inc1
+reprob               0.25
+remode               pixel
+recount              1
+400000
+400000
+8000
+8000
+400000
+400000
+8000
+8000
+400000
+400000
+400000
+400000
+400000
+400000
+batch_size           512
+dataset              iBiohash
+debug                0
+epochs               64
+eval                 False
+lr                   1e-05
+lr_pfc_weight        10.0
+input_size           224
+gradient_acc         1
+model_name           ViT-L/14
+margin_loss_m1       1.0
+margin_loss_m2       0.25
+margin_loss_m3       0.0
+margin_loss_s        32.0
+margin_loss_filter   0.0
+num_workers          4
+num_feat             512
+optimizer            adamw
+output_dim           768
+output               ./output
+resume               NULL
+sample_rate          1.0
+seed                 1024
+transform            timm
+weight_decay         0.0
+color_jitter         0.4
+aa                   rand-m9-mstd0.5-inc1
+reprob               0.25
+remode               pixel
+recount              1
+400000
+400000
+8000
+8000
+400000
+400000
+8000
+8000
+400000
+400000
+400000
+400000
+400000
+400000
